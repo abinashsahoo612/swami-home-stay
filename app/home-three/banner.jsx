@@ -7,29 +7,20 @@ import Link from "next/link";
 const bannerData = {
   bannerItem: [
     {
-      // subtitle: "Indulge in Luxury",
       title: "Welcome to a Stay Like No Other",
-      image: "/img/banners/3.jpeg",
+      image: "/img/banners/img1.jpg",
     },
     {
-      // subtitle: "Welcome to Paradise",
       title: "Your unforgettable journey begins here.",
-      image: "/img/banners/2.jpeg",
+      image: "/img/banners/img2.jpg",
     },
-    // {
-    //   subtitle: "Dive into Serenity",
-    //   title: "Refresh, relax, and rejuvenate.",
-    //   image: "/img/banners/img3.webp",
-    // },
     {
-      // subtitle: "Savor the Moment",
       title: "Unwind in ultimate comfort.",
-      image: "/img/banners/1.jpeg",
+      image: "/img/banners/img3.jpg",
     },
     {
-      // subtitle: "5",
       title: "Where Every Stay Shines.",
-      image: "/img/banners/4.jpeg",
+      image: "/img/banners/img4.jpg",
     },
     
   ],

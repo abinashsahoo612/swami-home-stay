@@ -6,12 +6,12 @@ import "slick-carousel/slick/slick-theme.css";
 const Gallery = () => {
   // Change images
     const teamItem = [
-      "/img/banners/3.jpeg",
-      "/img/banners/4.jpeg",
-      "/img/banners/5.jpeg",
-      "/img/banners/6.jpeg",
-      "/img/banners/7.jpeg",
-      "/img/banners/8.jpeg",
+      "/img/rooms/img1.jpg",
+      "/img/rooms/img2.jpg",
+      "/img/rooms/img3.jpg",
+      "/img/rooms/img4.jpg",
+      "/img/rooms/img5.jpg",
+      "/img/rooms/img6.jpg",
     ];
     const settings = {
       dots: true,

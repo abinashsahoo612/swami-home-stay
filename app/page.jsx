@@ -33,7 +33,7 @@ const Home3 = () => {
         {/* <Teamarea /> */}
         {/*<Bookingarea />*/}
         <Contact /> {/* Add this line */}
-        <Placearea />
+        {/* <Placearea /> */}
         {/* <Bandarea /> */}
         <Footer />
         <ScrollToTopButton />

@@ -65,9 +65,9 @@ export default function HeaderOne({ variant }) {
                       <Room />
                     </ul> */}
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#kitchen">Bar & Kitchen</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#gallery">Gallery</a>
                   </li>

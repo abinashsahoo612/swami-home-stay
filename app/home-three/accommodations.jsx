@@ -42,7 +42,7 @@ const Accommodations = () => {
           <div className="col-xl-6 col-lg-6 col-md-7">
             <div className="accommodations__two-right">
               <img
-                src="/img/features/1.jpeg"
+                src="/img/rooms/img4.jpg"
                 alt="Swami Home Stay Exterior"
               />
             </div>

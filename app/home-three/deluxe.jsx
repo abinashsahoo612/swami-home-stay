@@ -2,10 +2,10 @@
 
 const galleryData = {
   galleryImage: [
-    { image: "/img/banners/8.jpeg" },
-    { image: "/img/banners/5.jpeg" },
-    { image: "/img/banners/1.jpeg" },
-    { image: "/img/banners/6.jpeg" },
+    { image: "/img/rooms/img1.jpg" },
+    { image: "/img/rooms/img2.jpg" },
+    { image: "/img/rooms/img3.jpg" },
+    { image: "/img/rooms/img4.jpg" },
   ],
 };
 
@@ -23,7 +23,7 @@ const Gallery = () => {
               <div className="section-title">
                 <span className="subtitle__one">rooms</span>
                 <h2 id="rooms">Our Rooms</h2>
-                <h4 id="">Deluxe Non AC Room</h4>
+                {/* <h4 id="">Deluxe Non AC Room</h4> */}
                 <p>
                   
                 </p>
@@ -34,8 +34,20 @@ const Gallery = () => {
           <div className="row">
             {galleryImage.map((item, index) => (
               <div key={index} className="col-sm-3 sm-mb-10">
-                <div className="gallery__area-item">
-                  <img className="w-100" src={item.image} alt="Room Image" />
+                <div className="team__area-item-image"
+                style={{
+                    height: "250px",
+                    width: "100%",
+                    overflow: "hidden",
+                  }}>
+                  <img className="w-100" src={item.image} alt="Room Image" 
+                  style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                      display: "block",
+                      marginLeft:"10px"
+                    }}/>
                 </div>
               </div>
             ))}
