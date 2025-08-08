@@ -21,11 +21,10 @@ const Accommodations = () => {
               <div className="key-features mt-4">
                 <h4>Resort Highlights:</h4>
                 <ul className="feature-list">
-                  <li>3 Deluxe Non AC Rooms with Ground Floor Access</li>
+                  <li>3 Different AC & Non AC Rooms with Ground Floor Access</li>
                   <li>24-Hour Security with CCTV Surveillance</li>
                   <li>In-house Restaurant with Homemade Food</li>
                   <li>Free Parking Facility</li>
-                  <li>Total Area: 4000 sq ft</li>
                 </ul>
               </div>
               <div className="key-features mt-4">
@@ -35,6 +34,7 @@ const Accommodations = () => {
                   <li>Pets not allowed </li>
                   <li>Alcohol & smoking Consumption strictly prohibited</li>
                   <li>Group of Men not allowed </li>
+                  <li>Music & sound not allowed </li>
                 </ul>
               </div>
             </div>

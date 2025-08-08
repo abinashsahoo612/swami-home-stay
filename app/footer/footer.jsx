@@ -50,7 +50,7 @@ export default function Footer() {
                   homely comforts..
                 </p>
                 <div className="footer__area-widget-about-social">
-                  <Social />
+                  {/* <Social /> */}
                 </div>
               </div>
             </div>
