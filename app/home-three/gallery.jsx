@@ -5,84 +5,83 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Gallery = () => {
   // Change images
-    const teamItem = [
-      "/img/rooms/img1.jpg",
-      "/img/rooms/img2.jpg",
-      "/img/rooms/img3.jpg",
-      "/img/rooms/img4.jpg",
-      "/img/rooms/img5.jpg",
-      "/img/rooms/img6.jpg",
-    ];
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 4, // Show one image at a time
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2500,
-      arrows: false,
-      responsive: [
-        {
-          breakpoint: 1024, // For tablets and smaller desktops
-          settings: {
-            slidesToShow: 3,
-          },
+  const teamItem = [
+    "/img/rooms/img1.jpg",
+    "/img/rooms/img2.jpg",
+    "/img/rooms/img3.jpg",
+    "/img/rooms/img4.jpg",
+    "/img/rooms/img5.jpeg",
+    "/img/rooms/img6.png",
+  ];
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4, // Show one image at a time
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024, // For tablets and smaller desktops
+        settings: {
+          slidesToShow: 3,
         },
-        {
-          breakpoint: 768, // For tablets
-          settings: {
-            slidesToShow: 2,
-          },
+      },
+      {
+        breakpoint: 768, // For tablets
+        settings: {
+          slidesToShow: 2,
         },
-        {
-          breakpoint: 480, // For mobile devices
-          settings: {
-            slidesToShow: 1,
-          },
+      },
+      {
+        breakpoint: 480, // For mobile devices
+        settings: {
+          slidesToShow: 1,
         },
-      ],
-    };
-    return (
-      <div className="team__area section-padding" id="gallery">
-        <div className="container">
-          <div className="row mb-30">
-            <div className="col-xl-12">
-              <div className="team__area-title">
-                <h2 id="gallery" >Gallery</h2>
-              </div>
+      },
+    ],
+  };
+  return (
+    <div className="team__area section-padding" id="gallery">
+      <div className="container">
+        <div className="row mb-30">
+          <div className="col-xl-12">
+            <div className="team__area-title">
+              <h2 id="gallery">Gallery</h2>
             </div>
           </div>
-          <Slider {...settings}>
-            {teamItem.map((data, id) => (
-              <div key={data}>
-                <div
-                  className="team__area-item-image mt-30"
-                  style={{
-                    height: "250px",
-                    width: "100%",
-                    overflow: "hidden",
-                  }}
-                >
-                  <img
-                    alt=""
-                    src={data}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                      display: "block",
-                      marginLeft:"10px"
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </Slider>
         </div>
+        <Slider {...settings}>
+          {teamItem.map((data, id) => (
+            <div key={data}>
+              <div
+                className="team__area-item-image mt-30"
+                style={{
+                  height: "250px",
+                  width: "100%",
+                  overflow: "hidden",
+                }}
+              >
+                <img
+                  alt=""
+                  src={data}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    display: "block",
+                    marginLeft: "10px",
+                  }}
+                />
+              </div>
+            </div>
+          ))}
+        </Slider>
       </div>
-    );
-  };
-  
-  export default Gallery;
-  
+    </div>
+  );
+};
+
+export default Gallery;

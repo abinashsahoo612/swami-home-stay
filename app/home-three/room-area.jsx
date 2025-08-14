@@ -1,5 +1,5 @@
 import Link from "next/link";
-import PricingTable from "./pricingTable";
+import LocationTable from "./locationTable";
 
 const Roomarea = () => {
   const faqOne = [
@@ -62,7 +62,11 @@ const Roomarea = () => {
               {/* <span className="subtitle__one">Our Features</span> */}
               <h2>Facilities & Amenities</h2>
               <p>
-              Swami Home Stay provides comfortable rooms with double beds, clean linens, TV, and essential amenities. Attached bathrooms include hot/cold water and toiletries. Facilities like CCTV, backup, and doctor-on-call ensure safety. Full refund available for cancellations six days prior.
+                Swami Home Stay provides comfortable rooms with double beds,
+                clean linens, TV, and essential amenities. Attached bathrooms
+                include hot/cold water and toiletries. Facilities like CCTV,
+                backup, and doctor-on-call ensure safety. Full refund available
+                for cancellations six days prior.
               </p>
               <div className="room__area-title-contact">
                 {/* <Link className="theme-btn" href="#contact">
@@ -76,7 +80,7 @@ const Roomarea = () => {
                     <a href="tel:+123(458)585568">+91-9823331100</a>
                   </span>
                 </div> */}
-                <PricingTable/>
+                <LocationTable />
               </div>
             </div>
           </div>
