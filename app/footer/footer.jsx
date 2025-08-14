@@ -69,7 +69,16 @@ export default function Footer() {
                     <div className="footer__area-widget-contact-item-content">
                       {/* Address details */}
                       <span>
+                        {item.type === "custom" ? (
+                          item.infoLink.map(({ link, info }) => (
+                            <>
+                              <Link href={link}>{info}</Link>
+                              <br />
+                            </>
+                          ))
+                        ) : (
                         <Link href={item.link}>{item.info}</Link>
+                        )}
                       </span>
                     </div>
                   </div>
