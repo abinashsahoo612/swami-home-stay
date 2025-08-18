@@ -17,8 +17,8 @@ const footerOne = {
   officeInfos: [
     {
       icon: <FaMapMarkerAlt />,
-      info: "Panhala Fort, Panhala, Gude, Maharashtra 416201",
-      link: "https://maps.google.com/?q=191+Rakshi+Panhala",
+      info: "Dannamma 229, Panhala Near Bajiprabhu Putla ( Statue ) Main Road Panhala, Dist - Kolhapur, Maharashtra 416201",
+      link: "https://www.google.com/maps/place/Swami+Home+Stay/@16.8073656,74.1088489,19z/data=!4m15!1m5!3m4!2zMTbCsDQ4JzI2LjgiTiA3NMKwMDYnMzQuMSJF!8m2!3d16.8074444!4d74.1094722!3m8!1s0x3bc1af25e229eb2f:0x6f6d100046418e4a!5m2!4m1!1i2!8m2!3d16.8072376!4d74.1094631!16s%2Fg%2F11f1108vtm?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D",
     },
     {
       icon: <FaPhoneAlt />,

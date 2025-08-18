@@ -5,12 +5,18 @@ const Social = () => {
     <>
       <ul>
         <li>
-          <Link href="https://www.facebook.com/p/Baba-Resort-100090352578297/" target="_blank">
+          <Link
+            href="https://www.facebook.com/share/1BWAANYCuf/"
+            target="_blank"
+          >
             <i className="fab fa-facebook-f"></i>
           </Link>
         </li>
         <li>
-          <Link href="https://www.instagram.com/baba_resort_/?hl=en" target="_blank">
+          <Link
+            href="https://www.instagram.com/sramesh0025?igsh=MW5jaHpyaWpmZXQzMg=="
+            target="_blank"
+          >
             <i className="fab fa-instagram"></i>
           </Link>
         </li>

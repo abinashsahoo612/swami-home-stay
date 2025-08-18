@@ -11,7 +11,7 @@ export default function LocationTable() {
         </thead>
         <tbody className="text-gray-800 text-sm">
           {[
-            { location: "Panhala Fort", distance: "O KM", time: "0 Min" },
+            { location: "Panhala Fort", distance: "0 KM", time: "0 Min" },
             { location: "Masai pathar", distance: "9.2 KM", time: "23 Min" },
             { location: "Jyotiba Temple", distance: "12 kM", time: "26 Min" },
             {

@@ -50,7 +50,7 @@ export default function Footer() {
                   homely comforts..
                 </p>
                 <div className="footer__area-widget-about-social">
-                  {/* <Social /> */}
+                  <Social />
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function Footer() {
                             </>
                           ))
                         ) : (
-                        <Link href={item.link}>{item.info}</Link>
+                          <Link href={item.link}>{item.info}</Link>
                         )}
                       </span>
                     </div>
@@ -113,12 +113,12 @@ export default function Footer() {
               <div className="copyright__area-left md-t-center">
                 <p>Copyright © 2025 Swami Home Stay Panhala</p>
                 <p>
-                    Made with <span style={{color: "red"}}>&#10084;&#65039;</span>,
-                    crafted by <a href="https://www.dertzinfotech.com">Dertz</a>.
+                  Made with{" "}
+                  <span style={{ color: "red" }}>&#10084;&#65039;</span>,
+                  crafted by <a href="https://www.dertzinfotech.com">Dertz</a>.
                 </p>
               </div>
             </div>
-          
           </div>
         </div>
       </div>
