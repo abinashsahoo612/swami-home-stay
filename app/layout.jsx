@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <title>Swami Home Stay</title>
         <meta
           name="description"
-          content="A peaceful escape with modern comforts, Swami Home Stay welcomes you to relax and recharge in style."
+          content="Swami Home Stay Panhala | Hotel in Panhala | Resort in Panhala | Best Hotel in Panhala"
         />
         <link rel="icon" type="image/png" href="/favicon.png" />
       </head>
