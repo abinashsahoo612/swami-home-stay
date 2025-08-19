@@ -22,7 +22,6 @@ const bannerData = {
       title: "Where Every Stay Shines.",
       image: "/img/banners/img4.jpg",
     },
-    
   ],
 };
 const { bannerItem } = bannerData;
