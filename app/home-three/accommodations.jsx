@@ -12,7 +12,7 @@ const Accommodations = () => {
               <span className="subtitle__one">Welcome to</span>
               <h2>Swami Home Stay Panhala</h2>
               <p>
-                Located at Dannamma 229, Panhala Near Bajiprabhu Putla ( Statue
+                Located at 229, Dannamma, Panhala Near Bajiprabhu Putla ( Statue
                 ) Main Road Panhala, Dist - Kolhapur, Maharashtra 416201, Swami
                 Home Stay offers a peaceful retreat with comfortable
                 accommodations spread across 4000 square feet (4 Guntha) of
